@@ -1,0 +1,11 @@
+{
+  "name": "personal-homepage-scrapbook",
+  "version": "1.0.0",
+  "description": "A handcrafted digital scrapbook personal homepage",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

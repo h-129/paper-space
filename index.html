@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>野猪凌梦的灵感手账本</title>
+    <!-- 引入本地化的浏览器标签页 favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <meta name="description" content="A personal, handcrafted style portfolio.">
+    <!-- 加载本地化后的字体文件 -->
+    <link rel="stylesheet" href="css/local-fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 图标库使用 jsdelivr 外联，避免部署时体积过大 -->
+    <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- 纸张背景纹理 -->
+    <div class="paper-texture"></div>
+
+    <!-- 热气球背景特效 -->
+    <div class="balloons-bg">
+        <div class="balloon balloon-1">
+            <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+                <!-- 气球主体 (粉色) -->
+                <path
+                    d="M50 10 C15 10, 5 45, 5 65 C5 90, 35 100, 40 110 L60 110 C65 100, 95 90, 95 65 C95 45, 85 10, 50 10 Z"
+                    fill="#ff9ff3" stroke="#555" stroke-width="2" />
+                <!-- 竖条纹 -->
+                <path
+                    d="M50 10 C35 25, 30 50, 35 80 C37 90, 38 100, 40 110 M50 10 C65 25, 70 50, 65 80 C63 90, 62 100, 60 110"
+                    stroke="#555" stroke-width="1.5" fill="none" />
+                <!-- 吊篮 -->
+                <rect x="42" y="115" width="16" height="12" fill="#d1ccc0" rx="2" stroke="#555" stroke-width="1.5" />
+                <!-- 绳子 -->
+                <line x1="44" y1="110" x2="44" y2="115" stroke="#555" stroke-width="1.5" />
+                <line x1="56" y1="110" x2="56" y2="115" stroke="#555" stroke-width="1.5" />
+            </svg>
+        </div>
+        <div class="balloon balloon-2">
+            <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+                <!-- 气球主体 (青色) -->
+                <path
+                    d="M50 10 C15 10, 5 45, 5 65 C5 90, 35 100, 40 110 L60 110 C65 100, 95 90, 95 65 C95 45, 85 10, 50 10 Z"
+                    fill="#48dbfb" stroke="#555" stroke-width="2" />
+                <!-- 竖条纹 -->
+                <path
+                    d="M50 10 C35 25, 30 50, 35 80 C37 90, 38 100, 40 110 M50 10 C65 25, 70 50, 65 80 C63 90, 62 100, 60 110"
+                    stroke="#555" stroke-width="1.5" fill="none" />
+                <!-- 吊篮 -->
+                <rect x="42" y="115" width="16" height="12" fill="#d1ccc0" rx="2" stroke="#555" stroke-width="1.5" />
+                <!-- 绳子 -->
+                <line x1="44" y1="110" x2="44" y2="115" stroke="#555" stroke-width="1.5" />
+                <line x1="56" y1="110" x2="56" y2="115" stroke="#555" stroke-width="1.5" />
+            </svg>
+        </div>
+        <div class="balloon balloon-3">
+            <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+                <!-- 气球主体 (黄色) -->
+                <path
+                    d="M50 10 C15 10, 5 45, 5 65 C5 90, 35 100, 40 110 L60 110 C65 100, 95 90, 95 65 C95 45, 85 10, 50 10 Z"
+                    fill="#ffdd59" stroke="#555" stroke-width="2" />
+                <!-- 竖条纹 -->
+                <path
+                    d="M50 10 C35 25, 30 50, 35 80 C37 90, 38 100, 40 110 M50 10 C65 25, 70 50, 65 80 C63 90, 62 100, 60 110"
+                    stroke="#555" stroke-width="1.5" fill="none" />
+                <!-- 吊篮 -->
+                <rect x="42" y="115" width="16" height="12" fill="#d1ccc0" rx="2" stroke="#555" stroke-width="1.5" />
+                <!-- 绳子 -->
+                <line x1="44" y1="110" x2="44" y2="115" stroke="#555" stroke-width="1.5" />
+                <line x1="56" y1="110" x2="56" y2="115" stroke="#555" stroke-width="1.5" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- 页面标题，看起来像是在纸上写的 -->
+    <header class="page-header">
+        <div class="logo-wrapper">
+            <!-- 手绘风格云朵 SVG -->
+            <svg width="60" height="40" viewBox="0 0 100 60" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M 25 45 C 10 45 5 30 15 20 C 20 10 40 5 50 15 C 60 5 80 10 85 20 C 95 30 90 45 75 45 Z"
+                    fill="rgba(255, 255, 255, 0.5)" />
+            </svg>
+            <span class="handwriting logo-text">云端手账</span>
+        </div>
+        <h1>👋 欢迎来到我的<br>精神角落。</h1>
+        <p class="subtitle">（可以随便拖动桌上的东西哦）</p>
+    </header>
+
+    <main class="desk">
+
+        <!-- 便利贴 1：关于我 -->
+        <div class="draggable sticky-note note-yellow" style="top: 15%; left: 10%;">
+            <div class="pin"></div>
+            <h2 class="handwriting">关于我：野猪凌梦 🐗</h2>
+            <p>一名主攻 Java 的后端开发者，偶尔也写写 Vue3 搞搞前端。</p>
+            <p>梦想是有一天能写出完全没有 Bug 的代码（虽然知道不可能 🤷‍♂️）。</p>
+        </div>
+
+        <!-- 便利贴 2：小吐槽 -->
+        <div class="draggable sticky-note note-pink" style="top: 50%; left: 8%;">
+            <div class="tape"></div>
+            <p class="handwriting" style="font-size: 1.5rem; text-align: center; margin-top: 20px;">
+                "咖啡是把代码转化为<br>报错的液体。" ☕
+            </p>
+        </div>
+
+        <!-- 拍立得 1：头像/生活照 -->
+        <div class="draggable polaroid" style="top: 10%; right: 15%; transform: rotate(5deg);">
+            <div class="tape"></div>
+            <div class="photo">
+                <!-- 用户个人头像 -->
+                <img src="images/avatar.png" alt="野猪凌梦" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="caption handwriting">野猪凌梦本猪 🤓</div>
+        </div>
+
+        <!-- 便利贴 3：技能栈 -->
+        <div class="draggable sticky-note note-blue" style="top: 35%; left: 40%; transform: rotate(-3deg);">
+            <div class="pin"></div>
+            <h2 class="handwriting">我的工具箱 🧰</h2>
+            <ul class="doodle-list">
+                <li><i class="ph ph-check-square"></i> Java (后端主力)</li>
+                <li><i class="ph ph-check-square"></i> Spring Boot / DB</li>
+                <li><i class="ph ph-check-square"></i> Vue3 (前端涉猎)</li>
+                <li><i class="ph ph-check-square"></i> Ctrl+C / Ctrl+V 专家</li>
+            </ul>
+        </div>
+
+        <!-- 拍立得 2：项目 -->
+        <div class="draggable polaroid" style="top: 55%; right: 20%; transform: rotate(-6deg);">
+            <div class="tape" style="left: -10px; right: auto; width: 60px;"></div>
+            <div class="photo project-photo mac-terminal">
+                <div class="mac-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="mac-body">
+                    <span class="user">yzlm@server</span>:<span class="path">~/api</span>$ ./start.sh<br>
+                    <span class="log">[INFO]</span> Starting Java App...<br>
+                    <span class="log">[INFO]</span> Tomcat initialized (8080)<br>
+                    <span class="log">[INFO]</span> Started in 1.28 seconds<br>
+                    <span class="user">yzlm@server</span>:<span class="path">~/api</span>$ <span class="cursor"></span>
+                </div>
+            </div>
+            <div class="caption handwriting">最近在搞的项目 🚀</div>
+        </div>
+
+        <!-- 涂鸦元素：联系方式 -->
+        <div class="draggable doodle-card" style="bottom: 10%; left: 30%; transform: rotate(2deg);">
+            <h2 class="handwriting">找我玩？</h2>
+            <p style="margin-top: 8px;">去我的 Github 逛逛代码：</p>
+            <a href="https://github.com/h-129" target="_blank" class="handwriting email-link"><i
+                    class="ph ph-github-logo" style="vertical-align: middle;"></i> @h-129</a>
+            <div class="scribble"></div>
+        </div>
+
+        <!-- 小涂鸦装饰 -->
+        <div class="decoration" style="top: 80%; right: 10%;">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M 10,50 Q 25,20 50,50 T 90,50" />
+                <path d="M 80,40 L 90,50 L 80,60" />
+            </svg>
+            <span class="handwriting" style="font-size: 1.2rem;">一路向北</span>
+        </div>
+
+        <!-- 底部备案信息占位符 -->
+        <footer class="footer-labels">
+            <a href="https://beian.miit.gov.cn/" target="_blank" class="beian-link">
+                <!-- 使用本地化图标替代外部工信部 icon，避免 521 报错 -->
+                <img src="images/icp-icon.png" alt="ICP" class="beian-icon">
+                <span>赣ICP备2024034478号-1</span>
+            </a>
+            <a href="https://icp.gov.moe/?keyword=20261209" target="_blank" class="beian-link">
+                <!-- 获取萌备官网的标准 logo -->
+                <img src="https://icp.gov.moe/images/ico64.png" alt="MoeICP" class="beian-icon">
+                <span>萌ICP备20261209号</span>
+            </a>
+        </footer>
+
+    </main>
+
+    <!-- 引入交互脚本 -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
